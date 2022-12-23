@@ -1,4 +1,4 @@
-function mouse (age) {
+function dog (age) {
     console.log(age)
     console.log('aloo')
 }
