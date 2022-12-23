@@ -1,3 +1,5 @@
 const cat = () => {
-    console.log('cat')
+    console.loh('testing diff')
 }
+
+export default cat
