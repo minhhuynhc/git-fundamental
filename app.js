@@ -1,7 +1,6 @@
-var Dog =require('./dog')
-// import Dog from './Dog'
+import Dog from './Dog'
 
-// var dog = new Dog('Tom')
+var dog = new Dog('Tom')
 
-// dog.sayHi()
+dog.sayHi()
 
