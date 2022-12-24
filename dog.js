@@ -1,6 +1,16 @@
-function dog (age) {
-    console.log(age)
-    console.log('aloo')
+var chalk = require('chalk')
+
+function Dog(name) {
+    this.name =name;
+    this.stomach = []
 }
 
-export default mouse
+Dog.prototype.eat = function(cat) {
+    this.stomach.push(cat)
+}
+
+Dog.prototype.sayHi = function(){
+    console.log('hi! im a dog')
+}
+
+module.exports = Dog
