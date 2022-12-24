@@ -44,9 +44,24 @@ a place to store commit of the team
 
 - git remote add origin <URL>: connect current local repo to the remote repo 
 - git remote -v: display list of repo
+- git push:  update the local repo to remote repo --- this will change the remote repo (remember to not push to master)
 - git push -u origin <branch>: at the first time push local to remote
-- git push:  
+- git push origin <branch>: push change to a branch
 
+
+- git clone <remoteRepo URL>: create a folder and copy the repo to computer
+- git pull: aply all the change on remote repo to the exiting local repo(after cloned it)
+
+
+**=> Step to create a pull request**
+1. git checkout -b <subBranch>
+2. git push origin <subBranch>
+3. create a pull request
+4. review code
+   1. Review code online
+   2. fetch branch into local to test offline
+   3. appove pull request
+5. merge to master
 ___________
 IF YOU ARE FIRST TIME:
 git config --global user.email "<accountgmail>"
