@@ -1,5 +1,6 @@
 what can git do?
--
+- manage project by controling commit vesions.
+- github to work online and control source flow.
 
 Step to use:
 - install git
@@ -62,6 +63,23 @@ a place to store commit of the team
    2. fetch branch into local to test offline
    3. appove pull request
 5. merge to master
+
+**CONFLICT**
+1. When will a conflict happen?
+   1. Changing the same file at the same row
+   2. A delete file X, B modified file X
+2. How to resolve a confict?
+	# First method: using rebase
+   1. In conflict branch: run 'git rebase master'
+   2. Resolve conflict, 'git add' the edited file.
+   3. Run 'git rebase --continue'
+   4. Repush the branch to github: git push origin <branch> -f	
+   5. Merge
+	# Second method: merge
+   1. https://www.youtube.com/watch?v=K4kzvzZ7v08&list=PLkY6Xj8Sg8-viFVtaVps_h_Emi2wQyE7q&index=17
+   
+   2. To lazy to study so watch that when necessary :>
+
 ___________
 IF YOU ARE FIRST TIME:
 git config --global user.email "<accountgmail>"
@@ -85,3 +103,14 @@ git config --global user.name "<accountname>"
 +ls -a: list all
 +ls -al: list all in list format
  ls <folder>: list in folder
+
+
+
++ fork repo -> create a branch on your repo -> if u want to contribute to the main repo then create a pull request to it
++ to study README.md file: search 'MARKDOWN cheatsheet' and 'Markdown online editor"
++ issue tracking: report an issue
++ trending on github: show what is trending and we can vote a repo to make it trend
++ oh my zsh: custom terminal
++ GUI tools: 
++ search for Git GUI clients: sourve tree, git kranken, git desktop
++ 
